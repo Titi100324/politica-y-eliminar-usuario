@@ -1,80 +1,13 @@
-import 'package:flutter/material.dart';
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Política de Privacidad</title>
+</head>
+<body>
+  <h1>Política de Privacidad</h1>
+  <p>Esta aplicación respeta y protege la privacidad de todos los usuarios. No compartimos información personal con terceros y usamos los datos únicamente para mejorar la experiencia del usuario.</p>
+  <p>Si tienes preguntas sobre esta política, contáctanos.</p>
+</body>
+</html>
 
-class PrivacyPolicyScreen extends StatelessWidget {
-  const PrivacyPolicyScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Política de Privacidad'),
-        backgroundColor: Colors.blue,
-      ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [
-            Text(
-              'Política de Privacidad de migrapp',
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 16),
-            Text(
-              'Última actualización: 4/20/2025',
-              style: TextStyle(fontStyle: FontStyle.italic),
-            ),
-            SizedBox(height: 24),
-            Text(
-              '1. Información que Recopilamos',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 8),
-            Text(
-              'Recopilamos los siguientes tipos de información cuando utiliza migrapp:\n\n'
-                  'Información proporcionada directamente por usted:\n'
-                  '- Nombre completo\n'
-                  '- Dirección de correo electrónico\n'
-                  '- Número de teléfono\n'
-                  '- Contraseña (almacenada de forma segura y encriptada)\n'
-                  '- Cualquier otra información que usted elija proporcionar\n\n'
-                  'Información recopilada automáticamente:\n'
-                  '- Datos de uso (cómo interactúa con la aplicación)\n'
-                  '- Información del dispositivo (modelo, sistema operativo)\n'
-                  '- Datos de registro (dirección IP, hora de acceso)',
-            ),
-            // Continúa con las demás secciones de la política
-            SizedBox(height: 24),
-            Text(
-              '2. Cómo Usamos su Información',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 8),
-            Text(
-              'Utilizamos la información recopilada para:\n'
-                  '- Proporcionar y mantener nuestro servicio\n'
-                  '- Notificarle sobre cambios en nuestro servicio\n'
-                  '- Permitirle participar en funciones interactivas\n'
-                  '- Proporcionar atención al cliente y soporte\n'
-                  '- Mejorar y personalizar la experiencia del usuario\n'
-                  '- Detectar, prevenir y abordar problemas técnicos\n'
-                  '- Cumplir con obligaciones legales',
-            ),
-            // Añade todas las demás secciones de la política aquí
-            SizedBox(height: 24),
-            Text(
-              '11. Contacto',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 8),
-            Text(
-              'Si tiene preguntas sobre esta Política de Privacidad, contáctenos en:\n'
-                  '- Email: contacto@migrapp.com\n'
-                  '- Teléfono: +1 814 812-3413',
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
