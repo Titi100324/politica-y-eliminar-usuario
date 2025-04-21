@@ -2,11 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Política de Privacidad</title>
+  <title>Eliminar Cuenta</title>
 </head>
 <body>
-  <h1>Política de Privacidad</h1>
-  <p>Esta aplicación respeta y protege la privacidad de todos los usuarios. No compartimos información personal con terceros y usamos los datos únicamente para mejorar la experiencia del usuario.</p>
-  <p>Si tienes preguntas sobre esta política, contáctanos.</p>
+  <h1>Solicitar Eliminación de Cuenta</h1>
+  <p>Si deseas eliminar tu cuenta, por favor escríbenos a nuestro correo:</p>
+  <p><strong>soporte@tuapp.com</strong></p>
+  <p>Incluye tu nombre de usuario y correo registrado. Procesaremos la eliminación en un plazo de 5 días hábiles.</p>
 </body>
 </html>
+
